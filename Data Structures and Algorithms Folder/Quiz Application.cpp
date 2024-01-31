@@ -3,10 +3,11 @@
 #include<cmath>
 #define big 100
 using namespace std;
-int i,n=1,m,sum=0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10;
+int i,n=1,m,sum=0,q1,q2,q3,q4,q5,q6,q7,q8,q9;
 int marks[big];
 
-//**WILL GET TIME AND REFINE THE CODE BECAUSE IT HAS A LITTLE BIT OF MANY GLOBAL VARIABLES AND REDUNDANCIES
+//**WILL GET TIME AND REFINE THE CODE BECAUSE IT HAS A LITTLE BIT OF MANY GLOBAL VARIABLES AND REDUNDANCIES.
+//This will make it to be more efficient and User Friendly
 
 void printArrayValues(){
 	for(int j=0;j<m;j++){
