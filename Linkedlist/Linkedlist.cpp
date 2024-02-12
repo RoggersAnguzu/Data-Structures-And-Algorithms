@@ -37,7 +37,7 @@ int main(){
 	linkedlist usiu;
 	int i, n;
 	int item;
-	cout<<"Enter the Values: ";
+	cout<<"How Many Values are you Entering: ";
 	cin>>n;
 	cout<<"Enter the Values: ";
 	for(i=0;i<n;i++){
