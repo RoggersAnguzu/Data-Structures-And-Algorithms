@@ -26,7 +26,7 @@ void BinarySearch(){
 	int high=n-1;
 	int low=0;
 	mid=(low+high)/2;
-	cout<<"Enter the Number you are Searhing: ";
+	cout<<"Enter the Number you are Searching for Please: ";
 	cin>>x;
 	while(low<=high){
 		if(x==array[mid]){
