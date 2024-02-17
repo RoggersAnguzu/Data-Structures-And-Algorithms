@@ -13,7 +13,7 @@ void getvalues(){
 		cin>>array[i];}
 }
 
-void bubblesort(){
+void bubblesort(){//This is the Sorting Section.
 	for(i=1;i<n;i++){
 		for(j=0;j<n-1;j++){
 			if(array[j+1]<array[j]){
