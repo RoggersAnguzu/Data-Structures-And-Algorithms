@@ -1,5 +1,5 @@
 #include<iostream>
-#define size 200
+#define size 200     //A better Practice to declare the Size Earlier.
 
 using namespace std;
 
@@ -11,7 +11,7 @@ class stack{
 			top=-1;
 		}
 		
-		void push(int item){
+		void push(int item){  //Adding Elements to a Stack
 			if(top==size-1){
 				cout<<"Stack Over Flow";
 				return;
@@ -22,7 +22,7 @@ class stack{
 			}
 		}
 		
-		void pop(){
+		void pop(){ //Removing Elements from the Stack
 			if(top==-1){
 				cout<<"Stack underflow";
 				return;
