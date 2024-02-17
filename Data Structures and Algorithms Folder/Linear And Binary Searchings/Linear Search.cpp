@@ -26,7 +26,7 @@ void linearsearch(){
 			break;
 		}
 	}
-	if(i>=n){
+	if(i>=n){ //Although this Part Can be left Out
 		cout<<searchkey<<" Was Never Found"<<endl;
 	}
 }
