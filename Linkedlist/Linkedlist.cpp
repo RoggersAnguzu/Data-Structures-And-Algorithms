@@ -3,7 +3,7 @@ using namespace std;
 
 struct node{
 	int data;
-	node *next;
+	node *next; //This part is used to demacate the Pointer to the Next Node.
 };
 
 class linkedlist{
