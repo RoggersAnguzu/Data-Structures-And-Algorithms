@@ -9,12 +9,12 @@ struct node{
 class linkedlist{
 	node *head, *tail;
 	public:
-		void createnode(int item){
+		void createnode(int item){//Creation of a New Node.
 			node *newnode=new node;
 			newnode->data=item;
 			newnode->next=NULL;
 			
-			if(head==NULL){
+			if(head==NULL){ //Checking if the headnode is Null.
 				head=newnode;
 				tail=newnode;
 			}
