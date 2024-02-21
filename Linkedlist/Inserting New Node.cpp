@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-struct node{
+struct node{ //This part is used to define a Struct instead of a Class
 	int data;
-	node *next;
+	node *next;// This part is used to Reflect to the Next Number Value in the LinkedList
 };
 
 class linkedlist{
