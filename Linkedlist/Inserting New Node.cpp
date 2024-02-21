@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-struct node{ //This part is used to define a Struct instead of a Class
+struct node{ //This part is used to define a Struct instead of a Class because it's Contents and variables are public by Default not Like class that are Private
 	int data;
 	node *next;// This part is used to Reflect to the Next Number Value in the LinkedList
 };
