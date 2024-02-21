@@ -41,6 +41,7 @@ class linkedlist{
 				previous=current;
 				current=current->next;
 			}
+			//This is the Checking Part.
 			if(current==head){
 				newnode->next=current;
 				head=newnode;
