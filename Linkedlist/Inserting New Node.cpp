@@ -55,7 +55,7 @@ class linkedlist{
 			}
 		}
 		
-		void display(){
+		void display(){ //This crazy Part is used to display out the Results and Data.
 			node *temp=head;
 			while(temp!=NULL){
 				cout<<temp->data<<"<--->";
