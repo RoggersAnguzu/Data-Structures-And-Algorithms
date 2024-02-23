@@ -12,7 +12,7 @@ class queue{
 		}
 		void enqueue(int item){
 			if(rare==size-1){
-				cout<<"Ques Overflow";
+				cout<<"Queues Overflow";
 				return;
 			}
 			else if(rare==-1){
