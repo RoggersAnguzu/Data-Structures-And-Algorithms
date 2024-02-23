@@ -7,7 +7,7 @@ struct node{
 };
 
 class linkedlist{
-	node *head, *tail;
+	node *head, *tail; //Demecating the First and the Last Node as the Head and the Tail Respectively
 	public:
 		void createnode(int item){
 			node *newnode=new node;
@@ -24,7 +24,7 @@ class linkedlist{
 			}
 		}
 		
-		//inserting new node;
+		//inserting new node
 		void insertnewnode(int item){
 			node *newnode=new node;
 			newnode->data=item;
