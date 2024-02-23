@@ -1,7 +1,7 @@
 #include<iostream>
 #define size 200
 
-using namespace std; // A stack Norally operates at based of the LIFO Rule.
+using namespace std; // A stack Normally operates at based of the LIFO Rule.
 
 class stack{
 	int top;
