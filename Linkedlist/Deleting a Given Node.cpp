@@ -62,7 +62,7 @@ class linkedlist{
 				temp=temp->next;
 			}
 		}
-		void deletenode(){
+		void deletenode(){ //
 				
 			int i,position;
 			cout<<"Enter the Position Where to Delete the new node";
