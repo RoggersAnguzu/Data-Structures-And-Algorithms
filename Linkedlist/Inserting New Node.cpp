@@ -11,7 +11,7 @@ class linkedlist{
 	public:
 		void createnode(int item){
 			node *newnode=new node;
-			newnode->data=item;
+			newnode->data=item; //The New Node was pointing to the Data Heading to the Data.
 			newnode->next=NULL;
 			
 			if(head==NULL){
