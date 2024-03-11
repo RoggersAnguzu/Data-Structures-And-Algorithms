@@ -29,7 +29,7 @@ void InorderTraversal(node *root){
 	else{
 			InorderTraversal(root->left);
 			cout<<root->data<<" ";
-	        InorderTraversal(root->right);
+	               InorderTraversal(root->right);
 	}
 }
 int main(){
