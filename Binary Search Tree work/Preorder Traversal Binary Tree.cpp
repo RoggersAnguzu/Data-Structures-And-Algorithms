@@ -7,11 +7,11 @@ struct node{
 
 node *createnode(node *root, int item){
 	if(root==NULL){
-		node *newnode=new node;
-		newnode->data=item;
-		newnode->left=NULL;
-		newnode->right=NULL;
-		return newnode;
+		root=new node;
+		root->data=item;
+		root->left=NULL;
+		root->right=NULL;
+		return root;
 	}
 	else if(item<root->data){
 		root->left=createnode(root->left,item);
@@ -19,7 +19,6 @@ node *createnode(node *root, int item){
 	else{
 		root->right=createnode(root->right,item);
 	}
-	return root;
 }
 void PreorderTraversal(node *root){
 	if(root==NULL){
