@@ -1,5 +1,5 @@
 #include<iostream>
-#define size 100
+#define size 100   // 	This marks the Size of the array that is used to Store the anticipated Values.
 using namespace std;
 
 int i,j,n;
@@ -20,7 +20,7 @@ void Display(){
 }
 
 void merge(int array[],int low, int mid, int high){
-	i=low;
+	i=low; // Reassignations of the i variable to low.
 	j=mid+1;
 	int k=low;
 	int temp[n];
@@ -45,17 +45,18 @@ void merge(int array[],int low, int mid, int high){
 		k++;
 		j++;
 	}
+	//Below is used to copy the Elements of the Temporay array to the main Array.
 	for(i=low;i<k;i++){
 		array[i]=temp[i];
 	}
 	
 }
-void mergeSort(int array[],int low,int high){
+void mergeSort(int array[],int low,int high){// This is used for Demacation.
 	if(low<high){
 		int mid=(low+high)/2;
 		mergeSort(array,low,mid);
 		mergeSort(array,mid+1,high);
-		
+		//The Below Function Calls for Merge Function that collects all the Elements. 
 		merge(array,low,mid,high);
 	}
 }
