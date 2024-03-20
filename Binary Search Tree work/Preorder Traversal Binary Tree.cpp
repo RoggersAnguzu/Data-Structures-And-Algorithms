@@ -25,14 +25,14 @@ void PreorderTraversal(node *root){
 		return;
 	}
 	else{
-			cout<<root->data<<" ";
-			PreorderTraversal(root->left);
+		    cout<<root->data<<" ";
+		    PreorderTraversal(root->left);
 		    PreorderTraversal(root->right);
 		}
 }
 
 int main(){
-	node *root=NULL;
+	node *root=NULL; // Declaring the root Pointer to null.
 	int i,n;
 	int item;
 	
