@@ -6,7 +6,7 @@ struct node {
     node *left, *right;
 };
 
-node *createnode(node *root, int item) {
+node *createnode(node *root, int item) { // The Main Objective of this is to create node .
     if (root == NULL) {
         root = new node;
         root->data = item;
@@ -21,7 +21,7 @@ node *createnode(node *root, int item) {
     return root; 
 }
 
-void InorderTraversal(node *root) {
+void InorderTraversal(node *root) { //This is mainly for Inorder Traversal.
     if (root == NULL) {
         return;
     } else {
@@ -31,7 +31,7 @@ void InorderTraversal(node *root) {
     }
 }
 
-void PreorderTraversal(node *root) {
+void PreorderTraversal(node *root) { //This is the Module for Preorder Searching and Perusing.
     if (root == NULL) {
         return;
     } else {
@@ -51,7 +51,7 @@ void PostorderTraversal(node *root) {
     }
 }
 
-void SearchingData(node *root, int item, int &leftmove, int &rightmove) {
+void SearchingData(node *root, int item, int &leftmove, int &rightmove) { // This is the Module for Searching a Data.
     if (root == NULL) {
         cout << "The Data was Never Found!";
     } else if (item == root->data) {
