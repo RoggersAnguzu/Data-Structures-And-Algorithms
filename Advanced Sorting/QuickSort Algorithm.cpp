@@ -11,10 +11,10 @@ int Partition(int array[],int low,int high){
 	while(i<j){
 		do{
 			j--;
-		}while(array[j]>Pivot);
+		}while(array[j]>Pivot); // The Simple Logic Here is that we are collecting the Bigger elements than Pivot to the right.
 		do{
 			i++;
-		}while(array[i]<Pivot);
+		}while(array[i]<Pivot); // The Logic is that we are collecting Smaller elements than the Pivot to the Left.
 		
 		if(i<j){
 			swap(array[i],array[j]);
