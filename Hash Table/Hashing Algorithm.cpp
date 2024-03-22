@@ -1,5 +1,5 @@
 #include<iostream>
-#include<vector>
+#include<vector> // Demacates the Vector.
 using namespace std;
 
 class Hashtable{
@@ -48,3 +48,7 @@ int main(){
 	}
 	h.display();
 }
+/* The Data can then be  stored and accessed in two main ways ie:
+i) Linear Probing/Open addressing: This is where the the values are accesses and and stored upwards or downwards.
+ii)Separate Chaining/Crossed addressing. This is where the data can be stored and accessed horizontally from the main Node.
+*/
