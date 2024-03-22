@@ -6,7 +6,7 @@
 
 
 # HASHING TECHNIQUE.
-* Collision is when Two Keys result to the Same Values.
+* Collision is when Two Keys result to the Same Values..
 * Linear Probing is used to Solve collision.
 * Or a Linked List can be created.
 
