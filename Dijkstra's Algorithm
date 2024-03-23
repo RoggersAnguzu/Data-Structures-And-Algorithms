@@ -4,9 +4,14 @@
 * The main types of graphs are: Undirected graph(Bidirectional Flow), Directed Gragh(Unidirectional Flow).
 
 ** Dijkstras Algorithm.**
+* Approach One.
 * Choosing the Shortest Path based on the Distance Lables of the Nodes.
 * Choice comes upon the Shortest Path.
 * First Value Boxed with a Zero(0)
 * Boxing the Values that are having the smallest Values.
 * If the computation of the new distance is Bigger than the Previos smaller, Discarded.
 
+# Approach Two.
+* Matrix approach.
+* If there is no direct Connection use Infinity.
+* 
