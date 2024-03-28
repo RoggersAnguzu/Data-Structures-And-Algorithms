@@ -38,7 +38,7 @@ int main(){
 	cin>>size;
 	Hashtable h(size);
 	
-	cout<<"How many Many Values are you Entering: ";
+	cout<<"How Many Values are you Entering: ";
 	cin>>n;
 	for(int i=0;i<n;i++){
 		cout<<"Enter the Values";
