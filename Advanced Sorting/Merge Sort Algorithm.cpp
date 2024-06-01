@@ -6,7 +6,7 @@ int i,j,n;
 int array[size];
 
 void getValues(){
-	cout<<"How many Values Are you Merge Sorting?: \n";
+	cout<<"How many Values Are you Merge Sorting?: \n";  //This section Prompts User so noe input values.
 	cin>>n;
 	cout<<"Enter the Values: \n";
 	for(i=0;i<n;i++){
